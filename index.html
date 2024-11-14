@@ -12,7 +12,11 @@
     <div class="d-flex vh-100 flex-column flex-md-row">
         <figure class="d-none d-md-block col bg-danger h-100 overflow-hidden">    
             <div class="vid-container">
-                <video src="./images/bg-vid.mp4" class="object-fit-none" autoplay muted loop></video>
+                <video autoplay muted loop playsinline>
+                  <source src="./images/bg-vid.webm" class="object-fit-none" type="video/webm">
+                  <source src="./images/bg-vid.mp4" class="object-fit-none" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
             </div>
         </figure>   
 
