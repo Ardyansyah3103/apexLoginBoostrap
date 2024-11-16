@@ -1,7 +1,7 @@
 .vid-container {
     position: relative;
-    width: 100%; /* Sesuaikan lebar sesuai keinginan */
-    height: 100vh; /* Sesuaikan tinggi sesuai keinginan */
+    width: 100%; /* lebar */
+    height: 100vh; /* tinggi */
     overflow: hidden;
   }
   
